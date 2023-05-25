@@ -1,0 +1,6 @@
+config:
+  azure-native:location: westeurope
+  infrastructure-go:kubernetesVersion: 1.26.3
+  infrastructure-go:nodeVmSize: Standard_DS2_v2
+  infrastructure-go:numWorkerNodes: "2"
+  infrastructure-go:prefixForDns: pulumi
